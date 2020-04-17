@@ -20,6 +20,7 @@ items:
           port: 2222
     versions:
       kubelet: 1.14.1
+      controlPlane: 1.14.1
 - apiVersion: cluster.k8s.io/v1alpha1
   kind: Machine
   metadata:
